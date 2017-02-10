@@ -172,6 +172,13 @@ small {
   float:right;
 }
 
+.summary {
+  margin-top:10px;
+  padding-top:10px;
+  border-top:1px solid #e5e5e5;
+  border-width:1px 0;
+}
+
 hr {
   border:0;
   background:#e5e5e5;
@@ -252,6 +259,15 @@ footer {
   body {
     padding:0.4in;
     font-size:12pt;
+    line-height: 1.2;
     color:#444;
+  }
+
+  .hosted {
+    display:none;
+  }
+
+  small {
+    float:right;
   }
 }
