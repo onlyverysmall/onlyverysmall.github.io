@@ -33,6 +33,10 @@ h3, h4, h5, h6 {
   color:#444;
 }
 
+h4 {
+  font-weight:400;
+}
+
 a {
   color:#026454;
   font-weight:700;
@@ -171,6 +175,7 @@ small {
   color:#666;
   padding-top:4px;
   float:right;
+  font-weight:400;
 }
 
 .summary {
