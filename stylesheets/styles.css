@@ -1,14 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
 
 body {
   padding:30px;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  color:#666;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#3a175d;
   margin:0 0 10px;
 }
 
@@ -21,6 +21,7 @@ h1, h2, h3 {
 }
 
 h1 {
+  color:#3a175d;
   font-size:28px;
 }
 
@@ -29,18 +30,22 @@ h2 {
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#444;
+}
+
+h4 {
+  font-weight:400;
 }
 
 a {
-  color:#059d81;
-  font-weight:400;
+  color:#026454;
+  font-weight:700;
   text-decoration:none;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:#666;
   margin-top:-0.6em;
   display:block;
 }
@@ -167,9 +172,10 @@ section {
 
 small {
   font-size:11px;
-  color:#777;
+  color:#666;
   padding-top:4px;
   float:right;
+  font-weight:400;
 }
 
 .summary {
@@ -177,6 +183,11 @@ small {
   padding-top:10px;
   border-top:1px solid #e5e5e5;
   border-width:1px 0;
+}
+
+.subheader {
+  margin-top:-10px;
+  font-size:90%;
 }
 
 hr {
@@ -257,7 +268,7 @@ footer {
 
 @media print {
   body {
-    padding:0.4in;
+    padding:0 0.4in;
     font-size:12pt;
     line-height: 1.2;
     color:#444;
